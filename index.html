@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="title">Todo App</p>
+    <div id="mainDiv">
+      <input type="text" id="taskInput" />
+      <button id="addBtn">Add</button>
+      <div id="selects">
+        <select id="filterSelect">
+          <option value="All">All</option>
+          <option value="Active">Active</option>
+          <option value="Completed">Completed</option>
+        </select>
+        <select id="sortingSelect">
+          <option value="Oldest to Newest">Oldest to Newest</option>
+          <option value="Newest to Oldest">Newest to Oldest</option>
+        </select>
+      </div>
+      <div id="tasksDiv"></div>
+      <button id="clearBtn">Clear Completed</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,48 @@
+#title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#mainDiv {
+  margin-inline: 2vw;
+}
+#taskInput {
+  width: 96vw;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#addBtn {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#selects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  border-bottom: 2px solid rgb(193, 193, 193);
+  padding-bottom: 10px;
+}
+
+.subtask {
+  display: flex;
+  gap: 10px;
+}
+
+.subtask img {
+  width: 50px;
+  height: 50px;
+}
+
+.hidden {
+  display: none;
+}
